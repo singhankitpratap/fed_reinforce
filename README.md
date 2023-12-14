@@ -1,7 +1,7 @@
 # fed_reinforce
 Federated REINFORCE
 
-Packages Required
+Packages Required//
 gym: Used for creating and comparing reinforcement learning algorithms.
 numpy
 torch (PyTorch): Utilized for machine learning applications.
