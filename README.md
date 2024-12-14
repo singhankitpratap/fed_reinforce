@@ -1,9 +1,17 @@
-# fed_reinforce
-Federated REINFORCE
+# Federated REINFORCE
 
-Packages Required  <br>
-gym: Used for creating and comparing reinforcement learning algorithms.  <br>
-numpy  <br>
-torch (PyTorch): Utilized for machine learning applications.  <br>
-seaborn: For data visualization and creating statistical graphics.   <br>
-!pip install geom\_median: To compute geometric median.  <br>
+## Overview
+Federated REINFORCE adapts the classic REINFORCE policy gradient algorithm for distributed, privacy-preserving reinforcement learning using federated learning techniques. Robust aggregation methods, including the geometric median, are implemented to ensure security and efficiency.
+
+## Requirements
+Install the following dependencies before running the code:
+- `gym`: For creating and comparing reinforcement learning environments.
+- `numpy`: Numerical operations.
+- `torch` (PyTorch): Machine learning library.
+- `seaborn`: For data visualization.
+- `geom_median`: Install using `!pip install geom_median` for robust aggregation.
+
+## Key Features
+- Distributed training using federated learning.
+- Robust aggregation via geometric median.
+- Detailed visualization and statistical insights.
